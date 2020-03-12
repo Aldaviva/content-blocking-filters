@@ -16,8 +16,6 @@
 1. Go to the Filter Lists tab.
 1. In the Custom section at the bottom, check Import.
 1. Paste this URL into the text area.
-    ```
-    https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-politics.txt
-    ```
+    [```https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-politics.txt```](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-politics.txt)
 1. Click the Apply Changes button in the top-right corner of the page.
 1. Refresh any Twitter pages you may have open.
