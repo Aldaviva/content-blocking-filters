@@ -7,3 +7,5 @@ twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:ha
 twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:has(h2:has-text(Who to follow)):xpath(preceding-sibling::*[3]/following-sibling::*[position() < 9])
 
 twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:has(h2:has-text(Expand your timeline with Topics)):xpath(preceding-sibling::*[3]/following-sibling::*[position() < 12])
+
+twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div:has(h1:has-text(Push notifications))
