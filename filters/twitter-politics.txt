@@ -8,6 +8,7 @@ twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:ha
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bbernie\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bbeto\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bbiden\b/i))
+twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bbipoc\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bbloomberg\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bbuttigieg\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bclimate\b/i))
