@@ -50,6 +50,6 @@ twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:ha
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bu\.?s\.?a\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bunited states\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bvirus\b/i))
-twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bvot(e|ing)/i))
+twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bvot(e(?!s?·)|ing)/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bwarren\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bzoom\b/i))
