@@ -22,7 +22,7 @@ twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:ha
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bdonald\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bdrumpf\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\beconom/i))
-twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\belect/i))
+twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\belect(?!r)/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bfascis(t|ism)/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bfossil fuel\b/i))
 twitter.com##div[aria-label='Timeline: Your Home Timeline'] > div > div > div:has(div[data-testid='tweet'] > div > div:nth-child(2):has-text(/\bgofundme\b/i))
