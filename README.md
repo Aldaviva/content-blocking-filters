@@ -2,6 +2,11 @@
 *Filter lists for uBlock Origin*
 
 ## What is blocked
+
+### Ads
+- Advertisements
+- Banners and links to related content
+
 ### Twitter Minimal UI
 - Timeline interruptions
     - Discover New Lists
@@ -24,6 +29,7 @@
 1. Go to the **Filter Lists** tab.
 1. In the Custom section at the bottom, check **Import**.
 1. Copy and paste the desired text file's raw URL into the textarea, one URL per line.
+    - [Ads](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/ads.txt)
     - [Twitter Minimal UI](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-minimal-ui.txt)
     - [Twitter Politics](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-politics.txt)
 1. Click the **Apply Changes** button in the top-left corner of the page.
