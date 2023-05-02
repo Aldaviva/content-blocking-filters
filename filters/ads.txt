@@ -1,0 +1,16 @@
+# Title: Ben's Ad Filter
+# Homepage: https://github.com/aldaviva/content-blocking-filters/
+# Expires: 1 days
+
+! Rooster Teeth huge up next banner
+roosterteeth.com##.vjs-upnext
+
+! The Verge other stories
+www.theverge.com##.duet--layout--river-container
+www.theverge.com##.duet--article--more-stories
+
+! Etsy ads in search grid
+www.etsy.com##li.wt-list-unstyled:has(span.wt-icon:matches-css(width: 12px)):remove()
+
+! Flickr iStock sponsored images
+www.flickr.com##.photo-charm-exif-scrappy-view + div:not([class])
