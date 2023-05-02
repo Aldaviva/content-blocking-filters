@@ -24,8 +24,8 @@
 
 ## Installation
 1. If you haven't done so already, install [**uBlock Origin**](https://github.com/gorhill/uBlock/#installation) (or another compatible ad blocker) in your web browser.
-1. Click the uBlock Origin button in your toolbar.
-1. Click the dashboard button.
+1. Click the <img src="https://github.com/gorhill/uBlock/raw/master/src/img/ublock.svg" height="16px" alt="uBlock Origin"> uBlock Origin button in your toolbar.
+1. Click the ⚙️ dashboard button.
 1. Go to the **Filter Lists** tab.
 1. In the Custom section at the bottom, check **Import**.
 1. Copy and paste the desired text file's raw URL into the textarea, one URL per line.
