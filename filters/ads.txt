@@ -12,5 +12,7 @@ www.theverge.com##.duet--article--more-stories
 ! Etsy ads in search grid
 www.etsy.com##li.wt-list-unstyled:has(span.wt-icon:matches-css(width: 12px)):remove()
 
-! Flickr iStock sponsored images
+! Flickr ads
 www.flickr.com##.photo-charm-exif-scrappy-view + div:not([class])
+www.flickr.com##.search-tools-view + .view:has(img[src $= "/IStock_corporate_logo.svg"])
+www.flickr.com##.search-prints-results
