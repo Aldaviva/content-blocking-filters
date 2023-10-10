@@ -2,12 +2,12 @@
 # Homepage: https://github.com/aldaviva/content-blocking-filters/
 # Expires: 1 days
 
-twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div:has(h2:has-text(Discover new Lists)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 8])
+twitter.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Discover new Lists)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 8])
 
-twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div:has(h2:has-text(Who to follow)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 8])
+twitter.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Who to follow)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 8])
 
-twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div:has(h2:has-text(Expand your timeline with Topics)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 11])
+twitter.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Expand your timeline with Topics)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 11])
 
-twitter.com##div[aria-label="Timeline: Your Home Timeline"] > div > div > div > div:has(h1:has-text(Push notifications))
+twitter.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h1:has-text(Push notifications))
 
 twitter.com##div[aria-label="Timeline: Conversation"] > div > div:has(h2:has-text(Discover more)):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 6])
