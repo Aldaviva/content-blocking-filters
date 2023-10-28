@@ -3,7 +3,7 @@ $utf8NoBom = New-Object Text.UTF8Encoding $false
 function buildFilterList {
     param([string] $outputFilename, [string] $title, [string] $patternPrefix, [string] $patternSuffix)
 
-    $linesToWrite = (getHeader $title) + ((gc .\patterns.txt -Encoding UTF8) | %{ "$patternPrefix$_$patternSuffix" })
+    $linesToWrite = (getHeader $title) + ((gc .\politics-patterns.txt -Encoding UTF8) | %{ "$patternPrefix$_$patternSuffix" })
     writeAllLines $outputFilename $linesToWrite
 }
 
