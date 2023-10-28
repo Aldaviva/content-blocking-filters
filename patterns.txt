@@ -22,18 +22,24 @@
 /\belon\b/i
 /\bfascis(t|ism)/i
 /\bfossil fuel\b/i
+/\bgaza\b/i
+/\bgenocid/i
 /\bgofundme\b/i
 /\bgop\b/i
 /\bgovernment/i
+/\bhamas\b/i
 /\bhillary\b/i
-/\bloans?\b/i
+/\bidf\b/i
+/\bisrael/i
 /\bkamala\b/i
 /\bklobuchar\b/i
 /\blabour\b/i
+/\bloans?\b/i
 /\bmusk\b/i
 /\bnazi/i
 /\bnuclear\b/i
 /\bnuke\b/i
+/\bpalestin/i
 /\bpandemic\b/i
 /\bplague\b/i
 /\bpolice\b/i
@@ -53,4 +59,6 @@
 /\bvirus\b/i
 /\bvot(e(?!s?·)|ing)/i
 /\bwarren\b/i
+/\bwest bank\b/i
+/\bzion/i
 /\bzooms?\b/i
