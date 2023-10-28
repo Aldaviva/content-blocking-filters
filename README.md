@@ -13,7 +13,7 @@
     - Who To Follow
     - Expand Your Timeline With Topics 
 
-### Twitter Politics
+### Twitter and Bluesky Politics
 - Politics, mostly from America
 - Racism
 - Fascism
@@ -30,6 +30,7 @@
 1. In the Custom section at the bottom, check **Import**.
 1. Copy and paste the desired text file's raw URL into the textarea, one URL per line.
     - [Ads](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/ads.txt)
+    - [Bluesky Politics](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/bluesky-politics.txt)
     - [Twitter Minimal UI](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-minimal-ui.txt)
     - [Twitter Politics](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-politics.txt)
 1. Click the **Apply Changes** button in the top-left corner of the page.
