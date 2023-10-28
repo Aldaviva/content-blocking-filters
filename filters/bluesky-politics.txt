@@ -56,6 +56,7 @@ bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], di
 bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\bsanders\b/i))
 bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\bspacex\b/i))
 bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\bsupremac(y|ist)/i))
+bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\bterroris[tm]\b/i))
 bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\btesla\b/i))
 bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\btrump\b/i))
 bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text(/\bu\.?s\.?a\b/i))

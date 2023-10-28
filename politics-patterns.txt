@@ -52,6 +52,7 @@
 /\bsanders\b/i
 /\bspacex\b/i
 /\bsupremac(y|ist)/i
+/\bterroris[tm]\b/i
 /\btesla\b/i
 /\btrump\b/i
 /\bu\.?s\.?a\b/i
