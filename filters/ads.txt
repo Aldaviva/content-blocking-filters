@@ -20,3 +20,7 @@ www.flickr.com##.search-prints-results
 ! Fix for Fanboy's Enhanced Tracking List breaking SO's up/down votes
 ! https://github.com/ryanbr/fanboy-adblock/issues/1540#issuecomment-1711792752
 serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#@#+js(acis, StackExchange.ga.init)
+
+! UPS AI chat
+||*.inq.com/tagserver/*
+www.ups.com##virtual-assistant
