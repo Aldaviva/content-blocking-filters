@@ -24,3 +24,7 @@ serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#
 ! UPS AI chat
 ||*.inq.com/tagserver/*
 www.ups.com##virtual-assistant
+
+! The Mercury News paywalls
+||cdn.enterombacerick.com^
+||cdn.tepatonol.com^
