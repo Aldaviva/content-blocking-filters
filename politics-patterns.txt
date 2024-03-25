@@ -1,12 +1,6 @@
 /\b[mb]illionaire/i
-/\baclu\b/i
 /\bam[eu]rica/i
-/\bbernie\b/i
-/\bbeto\b/i
 /\bbiden\b/i
-/\bbipoc\b/i
-/\bbloomberg\b/i
-/\bbuttigieg\b/i
 /\bclimate\b/i
 /\bclinton\b/i
 /\bcolonial/i
@@ -16,11 +10,8 @@
 /\bcovid/i
 /\bdemocra/i
 /\bdonald\b/i
-/\bdrumpf\b/i
-/\beconom/i
 /\belect(?!r)/i
 /\belon\b/i
-/\bfascis(t|ism)/i
 /\bfossil fuel\b/i
 /\bgaza\b/i
 /\bgenocid/i
@@ -28,30 +19,18 @@
 /\bgop\b/i
 /\bgovernment/i
 /\bhamas\b/i
-/\bhillary\b/i
 /\bidf\b/i
 /\bisrael/i
-/\bkamala\b/i
-/\bklobuchar\b/i
-/\blabour\b/i
-/\bloans?\b/i
 /\bmusk\b/i
 /\bnazi/i
-/\bnuclear\b/i
-/\bnuke\b/i
 /\bpalestin/i
 /\bpandemic\b/i
-/\bplague\b/i
 /\bpolice\b/i
 /\bpolitic(s|al|ian)/i
 /\bpresident/i
-/\bprotest/i
 /\bputin\b/i
-/\bquarantin/i
 /\brepublican/i
-/\bsanders\b/i
 /\bspacex\b/i
-/\bsupremac(y|ist)/i
 /\bterroris[tm]\b/i
 /\btesla\b/i
 /\btrump\b/i
@@ -59,7 +38,6 @@
 /\bunited states\b/i
 /\bvirus\b/i
 /\bvot(e(?!s?·)|ing)/i
-/\bwarren\b/i
 /\bwest bank\b/i
 /\bzion/i
 /\bzooms?\b/i
