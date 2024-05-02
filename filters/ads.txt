@@ -28,3 +28,6 @@ www.ups.com##virtual-assistant
 ! The Mercury News paywalls
 ||cdn.enterombacerick.com^
 ||cdn.tepatonol.com^
+
+! GootLoader/SmartApeSG virus in fake Chrome updates on Athlon Optics
+||/cdn-vs/*.js$script,3p,domain=athlonoptics.com
