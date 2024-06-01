@@ -2,9 +2,6 @@
 # Homepage: https://github.com/aldaviva/content-blocking-filters/
 # Expires: 1 days
 
-! Rooster Teeth huge up next banner
-roosterteeth.com##.vjs-upnext
-
 ! The Verge other stories
 www.theverge.com##.duet--layout--river-container
 www.theverge.com##.duet--article--more-stories
