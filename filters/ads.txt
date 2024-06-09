@@ -28,3 +28,6 @@ www.ups.com##virtual-assistant
 
 ! GootLoader/SmartApeSG virus in fake Chrome updates on Athlon Optics
 ||/cdn-vs/*.js$script,3p,domain=athlonoptics.com
+
+! AI ad on Mozilla Developer Network
+developer.mozilla.org##.top-banner:has(>section>p>a[href$="/plus/ai-help"])
