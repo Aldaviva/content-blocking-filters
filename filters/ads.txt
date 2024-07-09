@@ -28,3 +28,6 @@ www.ups.com##virtual-assistant
 
 ! AI ad on Mozilla Developer Network
 developer.mozilla.org##.top-banner:has(>section>p>a[href$="/plus/ai-help"])
+
+! Link hijacking when clicking many links (like Magnet buttons, images in descriptions) on 1337X
+||1337x.to/ma.js
