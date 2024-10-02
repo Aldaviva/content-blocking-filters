@@ -13,6 +13,7 @@ www.etsy.com##li.wt-list-unstyled:has(span.wt-icon:matches-css(width: 12px)):rem
 www.flickr.com##.photo-charm-exif-scrappy-view + div:not([class])
 www.flickr.com##.search-tools-view + .view:has(img[src $= "/IStock_corporate_logo.svg"])
 www.flickr.com##.search-prints-results
+www.flickr.com##.photo-page-sidebar-view .sidebar-main-container .moola-content-spacing
 
 ! Fix for Fanboy's Enhanced Tracking List breaking SO's up/down votes
 ! https://github.com/ryanbr/fanboy-adblock/issues/1540#issuecomment-1711792752
