@@ -35,3 +35,6 @@ developer.mozilla.org##.top-banner:has(>section>p>a[href$="/plus/ai-help"])
 
 ! eBay ads inside watchlists
 www.ebay.com##.m-items :is(.m-product-tour, div[id^="placement"])
+
+! Google web search AI Overview
+www.google.com###rcnt > div:has(> h1)
