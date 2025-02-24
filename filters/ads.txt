@@ -1,4 +1,4 @@
-# Title: Ben's Ad Filter
+﻿# Title: Ben's Ad Filter
 # Homepage: https://github.com/aldaviva/content-blocking-filters/
 # Expires: 1 days
 
@@ -38,3 +38,6 @@ www.ebay.com##.m-items :is(.m-product-tour, div[id^="placement"])
 
 ! Google web search AI Overview
 www.google.com###rcnt > div:has(> h1)
+
+! Ad cookies on The Verge, needed by https://github.com/Aldaviva/userscripts/blob/master/verge.user.js
+||www.theverge.com/zephr/feature-decisions
