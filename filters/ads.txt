@@ -2,9 +2,10 @@
 # Homepage: https://github.com/aldaviva/content-blocking-filters/
 # Expires: 1 days
 
-! The Verge other stories
+! The Verge other stories, and ad cookies needed by https://github.com/Aldaviva/userscripts/blob/master/verge.user.js
 www.theverge.com##.duet--layout--river-container
 www.theverge.com##.duet--article--more-stories
+||www.theverge.com/zephr/feature-decisions
 
 ! Etsy ads in search grid
 www.etsy.com##li.wt-list-unstyled:has(span.wt-icon:matches-css(width: 12px)):remove()
@@ -15,7 +16,7 @@ www.flickr.com##.search-tools-view + .view:has(img[src $= "/IStock_corporate_log
 www.flickr.com##.search-prints-results
 www.flickr.com##.photo-page-sidebar-view .sidebar-main-container .moola-content-spacing
 
-! Fix for Fanboy's Enhanced Tracking List breaking SO's up/down votes
+! Stack Overflow fix for Fanboy's Enhanced Tracking List breaking up/down votes
 ! https://github.com/ryanbr/fanboy-adblock/issues/1540#issuecomment-1711792752
 serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#@#+js(acis, StackExchange.ga.init)
 
@@ -27,10 +28,10 @@ www.ups.com##virtual-assistant
 ||cdn.enterombacerick.com^
 ||cdn.tepatonol.com^
 
-! AI ad on Mozilla Developer Network
+! Mozilla Developer Network AI ad
 developer.mozilla.org##.top-banner:has(>section>p>a[href$="/plus/ai-help"])
 
-! Link hijacking when clicking many links (like Magnet buttons, images in descriptions) on 1337X
+! 1337X link hijacking when clicking many links (like Magnet buttons, images in descriptions)
 ||1337x.to/ma.js
 
 ! eBay ads inside watchlists
@@ -39,5 +40,6 @@ www.ebay.com##.m-items :is(.m-product-tour, div[id^="placement"])
 ! Google web search AI Overview
 www.google.com###rcnt > div:has(> h1)
 
-! Ad cookies on The Verge, needed by https://github.com/Aldaviva/userscripts/blob/master/verge.user.js
-||www.theverge.com/zephr/feature-decisions
+! Ars Technica videos unrelated to the current article
+||player.cnevids.com/script/video/$script,domain=arstechnica.com
+arstechnica.com##.ars-interlude-container
