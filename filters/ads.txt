@@ -43,3 +43,6 @@ www.google.com###rcnt > div:has(> h1)
 ! Ars Technica videos unrelated to the current article
 ||player.cnevids.com/script/video/$script,domain=arstechnica.com
 arstechnica.com##.ars-interlude-container
+
+! Ad on Bleeping Computer
+www.bleepingcomputer.com##.ia_ad
