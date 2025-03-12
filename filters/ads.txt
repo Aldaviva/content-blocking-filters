@@ -44,5 +44,8 @@ www.google.com###rcnt > div:has(> h1)
 ||player.cnevids.com/script/video/$script,domain=arstechnica.com
 arstechnica.com##.ars-interlude-container
 
-! Ad on Bleeping Computer
+! Bleeping Computer ads
 www.bleepingcomputer.com##.ia_ad
+
+! GitHub AI prompts on Home dashboard
+github.com##.copilotPreview__container
