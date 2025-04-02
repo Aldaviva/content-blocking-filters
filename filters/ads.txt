@@ -49,3 +49,6 @@ www.bleepingcomputer.com##.ia_ad
 
 ! GitHub AI prompts on Home dashboard
 github.com##.copilotPreview__container
+
+! New York Times ads (as of 2025-04-02)
+||www.nytimes.com/svc/onsite-messaging/query
