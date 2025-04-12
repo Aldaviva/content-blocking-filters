@@ -47,8 +47,9 @@ arstechnica.com##.ars-interlude-container
 ! Bleeping Computer ads
 www.bleepingcomputer.com##.ia_ad
 
-! GitHub AI prompts on Home dashboard
+! GitHub AI prompts on Home dashboard and issue pages
 github.com##.copilotPreview__container
+github.com##div:has(> div > div > a[data-testid='open-in-copilot-agent-button'])
 
 ! New York Times ads (as of 2025-04-02)
 ||www.nytimes.com/svc/onsite-messaging/query
