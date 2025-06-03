@@ -2,15 +2,15 @@
 # Homepage: https://github.com/aldaviva/content-blocking-filters/
 # Expires: 1 days
 
-x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Discover new Lists)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 8])
+x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Discover new Lists)):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 7])
 
-x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Who to follow)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 8])
+x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Who to follow)):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 7])
 
-x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Expand your timeline with Topics)):xpath(preceding-sibling::*[2]/following-sibling::*[position() < 11])
+x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text(Expand your timeline with Topics)):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 10])
 
 x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h1:has-text(Push notifications))
 
-x.com##div[aria-label="Timeline: Conversation"] > div > div:has(h2:has-text(Discover more)):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 6])
+x.com##div[aria-label="Timeline: Conversation"] > div > div:has(h2:has-text(Discover more)):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 5])
 
 x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h1:has-text("Go ad-free with Premium+"))
 
