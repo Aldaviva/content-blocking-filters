@@ -22,8 +22,7 @@ let buildFilterFile filename (title:string) (lineGenerator : string -> string) =
 buildFilterFile "filters/twitter-politics.txt" "Ben's Twitter Politics Filter" (fun keyword -> 
     let selector = $"##div[aria-label='Timeline: Your Home Timeline'] > div > div > div > div:has(article[data-testid='tweet'] > div > div > div > div > div:nth-child(2):has-text({keyword})):style(opacity: 0; height: 0)"
     
-    $"""x.com{selector}
-twitter.com{selector}""")
+    $"x.com{selector}")
 
 buildFilterFile "filters/bluesky-politics.txt" "Ben's Bluesky Politics Filter" (fun keyword -> 
-    $"""bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text({keyword}))""")
+    $"bsky.app##div[data-testid^='feedItem-by-']:has(:is(div[data-testid=postText], div[aria-label^='Post by '] > div[dir=auto]):has-text({keyword}))")
