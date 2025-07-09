@@ -37,8 +37,14 @@ developer.mozilla.org##.top-banner:has(>section>p>a[href$="/plus/ai-help"])
 ! eBay ads inside watchlists
 www.ebay.com##.m-items :is(.m-product-tour, div[id^="placement"])
 
-! Google web search AI Overview
-www.google.com###rcnt > div:has(> h1)
+! Google web search AI Overview and other come-ons
+www.google.com/search###rcnt > div:has(> h1)
+www.google.com/search##div[role=listitem]:has(span:has-text("AI Mode"))
+www.google.com/search###rso > div:has(div[role=heading]:has-text("People also ask"))
+www.google.com/search###rso > div:has(div[role=heading]:has-text("Things to know"))
+www.google.com/search###rso > div:has(div[role=heading]:has-text("What people are saying"))
+www.google.com/search###rso > div:has(div[role=heading]:has-text("Images"))
+www.google.com/search###bres > div:has(div[role=heading]:has-text("People also search for"))
 
 ! Ars Technica videos unrelated to the current article
 ||player.cnevids.com/script/video/$script,domain=arstechnica.com
