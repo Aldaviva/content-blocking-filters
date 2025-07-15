@@ -63,3 +63,7 @@ github.com##div:has(> div > div > a[data-testid='open-in-copilot-agent-button'])
 ! Wired ads
 ||4d.condenastdigital.com/user
 /^https:\/\/www\.wired\.com\/[\w-]{120,150}$/$script,domain=www.wired.com
+
+! Wirecutter AI answers on search results page
+www.nytimes.com/wirecutter/search##button[data-testid="followup-button"]
+www.nytimes.com/wirecutter/search##div:has(> div[data-testid="answer-block"])
