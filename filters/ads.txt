@@ -71,3 +71,6 @@ www.nytimes.com/wirecutter/search##div:has(> div[data-testid="answer-block"])
 ! Google nag on avatar to add an insecure SMS recovery number to your account, which would open you up to SIM swapping attacks. Just use FIDO, push notifications, TOTP, and backup codes, which are way more secure.
 google.com##a[aria-label^="Google Account: "][aria-label$=", Important account alert"] div[aria-hidden=true]
 google.com##a[aria-label^="Google Account: "][aria-label$=", Important account alert"] img:style(clip-path:none !important)
+
+! Google Gemini button in the top-right corner
+google.com##div:has(> div[data-rp-placement-id="gemkick-pep-icon-callout-id"])
