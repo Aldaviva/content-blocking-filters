@@ -67,3 +67,7 @@ github.com##div:has(> div > div > a[data-testid='open-in-copilot-agent-button'])
 ! Wirecutter AI answers on search results page
 www.nytimes.com/wirecutter/search##button[data-testid="followup-button"]
 www.nytimes.com/wirecutter/search##div:has(> div[data-testid="answer-block"])
+
+! Google nag on avatar to add an insecure SMS recovery number to your account, which would open you up to SIM swapping attacks. Just use FIDO, push notifications, TOTP, and backup codes, which are way more secure.
+google.com##a[aria-label^="Google Account: "][aria-label$=", Important account alert"] div[aria-hidden=true]
+google.com##a[aria-label^="Google Account: "][aria-label$=", Important account alert"] img:style(clip-path:none !important)
