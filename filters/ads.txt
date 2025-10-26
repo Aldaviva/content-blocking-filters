@@ -31,8 +31,8 @@ www.ups.com##virtual-assistant
 ! Mozilla Developer Network AI ad
 developer.mozilla.org##.top-banner:has(>section>p>a[href$="/plus/ai-help"])
 
-! 1337X link hijacking when clicking many links (like Magnet buttons, images in descriptions)
-||1337x.to/ma.js
+! 1337x banner ads
+1337x.*,x1337x.*##center
 
 ! eBay ads inside watchlists
 www.ebay.com##.m-items :is(.m-product-tour, div[id^="placement"])
@@ -73,3 +73,4 @@ google.com##a[aria-label^="Google Account: "][aria-label$=", Important account a
 
 ! Google Gemini button in the top-right corner
 google.com##div:has(> div[data-rp-placement-id="gemkick-pep-icon-callout-id"])
+
