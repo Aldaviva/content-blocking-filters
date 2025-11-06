@@ -52,6 +52,7 @@ arstechnica.com##.ars-interlude-container
 
 ! Bleeping Computer ads
 www.bleepingcomputer.com##.ia_ad
+www.bleepingcomputer.com##div:has(> a[href^="http"]:not([href^="https://www.bleepingcomputer.com"]) img[src^="https://www.bleepstatic.com/"])
 
 ! GitHub AI prompts on issue pages (also make sure to disable "Show Copilot" on https://github.com/settings/copilot/features)
 github.com##div[data-testid=sidebar-development-section] div[class*=developmentSectionContainer]:has(div[class*=CopilotAgentModeButton])
