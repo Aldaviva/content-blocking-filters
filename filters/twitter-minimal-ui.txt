@@ -15,3 +15,5 @@ x.com##div[aria-label="Timeline: Conversation"] > div > div:has(h2:has-text(Disc
 x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h1:has-text("Go ad-free with Premium+"))
 
 x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(div[data-testid="inlinePrompt"])
+
+x.com##div[aria-label="Timeline: Your Home Timeline"] div[data-testid="cellInnerDiv"]:has(h2:has-text("Today's News")):xpath(preceding-sibling::*[1]/following-sibling::*[position() < 7])
