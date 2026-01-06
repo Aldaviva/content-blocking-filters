@@ -20,6 +20,9 @@
 - Environmentalism
 - Anything else that's popular, depressing, and unsolvable (*e.g.* COVID-19)
 
+### Viruses
+- Sites compromised with malware that tries to convince users to download malicious files, run malicious commands, or otherwise infect users
+
 *You can also install my [Twitter user style](https://github.com/Aldaviva/userstyles/raw/master/styles/twitter.user.css) to make the Twitter webapp even more minimal. These two files complement each other and I recommend installing both; one does not replace the other.*
 
 ## Installation
@@ -33,5 +36,6 @@
     - [Bluesky Politics](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/bluesky-politics.txt)
     - [Twitter Minimal UI](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-minimal-ui.txt)
     - [Twitter Politics](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/twitter-politics.txt)
+    - [Viruses](https://raw.githubusercontent.com/Aldaviva/content-blocking-filters/master/filters/viruses.txt)
 1. Click the **✔️ Apply Changes** button in the top-left corner of the page.
 1. Refresh the page that you want to filter, *e.g.* Twitter.
