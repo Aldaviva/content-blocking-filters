@@ -1,0 +1,18 @@
+﻿# Title: Ben's Virus Filter
+# Homepage: https://github.com/aldaviva/content-blocking-filters/
+# Expires: 1 days
+
+# Athlon Optics: WordPress infection of Gootloader/SmartApeSG/NetSupportManager RAT
+# 2024-04-19:
+#     https://www.virustotal.com/gui/file/87356b42498739ca470c310c7c83daa8d327886e6092545971cc36aa6efc1137/detection
+#     https://cuponerachilanga[.]com/help/zewmrgqnw.php?reqtime=1713568689375
+#     https://cuponerachilanga[.]com/cdn-vs/cache.php
+# 2025-11-19:
+#     https://threatfox.abuse.ch/ioc/1630365/
+#     https://holonimjs[.]com/xss/buf.js
+#     https://web.archive[.]org/web/20251108091211/https://athlonoptics.com/
+# 2025-12-02:
+#     https://threatfox.abuse.ch/ioc/1651795/
+#     https://ijels[.]com/charge
+#     https://web.archive[.]org/web/20251202174141/https://athlonoptics.com/
+*$third-party,script,domain=athlonoptics.com
