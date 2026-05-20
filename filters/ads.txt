@@ -76,3 +76,6 @@ google.com##a[aria-label^="Google Account: "][aria-label$=", Important account a
 ! Google Gemini button in the top-right corner
 google.com##div:has(> div[data-rp-placement-id="gemkick-pep-icon-callout-id"])
 
+! TP-Link router admin UI: block Tether banner ad stuck to the bottom of every page viewport
+192.168.1.1##footer
+192.168.1.1##.index-wrap.has-pc-guidance:style(padding-bottom: 0 !important)
