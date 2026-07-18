@@ -6,6 +6,7 @@
 ### Ads
 - Advertisements
 - Banners and links to related content
+- Large Language Models and Generative Artificial Intelligence
 
 ### Twitter Minimal UI
 - Timeline interruptions
