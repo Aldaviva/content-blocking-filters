@@ -56,6 +56,7 @@ www.bleepingcomputer.com##.article-callout
 
 ! GitHub AI prompts on issue pages (also make sure to disable "Show Copilot" on https://github.com/settings/copilot/features)
 github.com##div[data-testid=sidebar-development-section] div[class*=developmentSectionContainer]:has(div[class*=CopilotAgentModeButton])
+github.com##button[class*="CopilotPopover-module__copilotButton"]
 
 ! New York Times ads (as of 2025-04-02)
 ||www.nytimes.com/svc/onsite-messaging/query
