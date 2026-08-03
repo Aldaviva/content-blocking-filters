@@ -22,6 +22,9 @@ serverfault.com,superuser.com,stackoverflow.com,askubuntu.com,stackexchange.com#
 
 ! UPS AI chat
 ||tags.tiqcdn.com^
+||akamai.tiqcdn.com^
+||www.ups.com/appassets/digital-assistant/
+||va-chat.ups.com^
 
 ! The Mercury News paywalls
 ||cdn.enterombacerick.com^
