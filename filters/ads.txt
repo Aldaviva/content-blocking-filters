@@ -83,3 +83,8 @@ google.com##div:has(> div[data-rp-placement-id="gemkick-pep-icon-callout-id"])
 ! TP-Link router admin UI: block Tether banner ad stuck to the bottom of every page viewport
 192.168.1.1##footer
 192.168.1.1##.index-wrap.has-pc-guidance:style(padding-bottom: 0 !important)
+
+! PiXhost ads
+||pixhost.cc/resource-session/
+||pixhost.to/resource-session/
+||pixho.st/resource-session/
