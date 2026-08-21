@@ -84,7 +84,16 @@ google.com##div:has(> div[data-rp-placement-id="gemkick-pep-icon-callout-id"])
 192.168.1.1##footer
 192.168.1.1##.index-wrap.has-pc-guidance:style(padding-bottom: 0 !important)
 
-! PiXhost ads
-||pixhost.cc/resource-session/
+! PiXhost ads and age gate
 ||pixhost.to/resource-session/
+||pixhost.cc/resource-session/
 ||pixho.st/resource-session/
+||pixhost.to/js/age-gate.js
+||pixhost.cc/js/age-gate.js
+||pixho.st/js/age-gate.js
+pixhost.to##.age-gate
+pixhost.cc##.age-gate
+pixho.st##.age-gate
+pixhost.to##body:remove-class("age-gate-required")
+pixhost.cc##body:remove-class("age-gate-required")
+pixho.st##body:remove-class("age-gate-required")
