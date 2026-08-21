@@ -97,3 +97,6 @@ pixho.st##.age-gate
 pixhost.to##body:remove-class("age-gate-required")
 pixhost.cc##body:remove-class("age-gate-required")
 pixho.st##body:remove-class("age-gate-required")
+pixhost.to###web:remove-attr("inert")
+pixhost.cc###web:remove-attr("inert")
+pixho.st###web:remove-attr("inert")
