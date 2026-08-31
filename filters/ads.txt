@@ -100,3 +100,6 @@ pixho.st##body:remove-class("age-gate-required")
 pixhost.to###web:remove-attr("inert")
 pixhost.cc###web:remove-attr("inert")
 pixho.st###web:remove-attr("inert")
+
+! Up4ever anti-adblocker
+www.up-4ever.net###u4ab_modal
