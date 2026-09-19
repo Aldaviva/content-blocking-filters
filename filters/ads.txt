@@ -103,3 +103,6 @@ pixho.st###web:remove-attr("inert")
 
 ! Up4ever anti-adblocker
 www.up-4ever.net###u4ab_modal
+
+! Fix loading PodBean podcasts in Inoreader; otherwise, when the adblocker redirects to the MP3 URL without a query param, Chromium rejects it with a net::ERR_INVALID_ARGUMENT error
+@@||podbean.com/pb/$media,domain=www.inoreader.com,removeparam=pbss
