@@ -3,6 +3,7 @@
 # Expires: 1 days
 
 ! The Verge other stories, and ad cookies needed by https://github.com/Aldaviva/userscripts/blob/master/verge.user.js
+www.theverge.com##.duet--layout--article-recirc-color-container
 www.theverge.com##.duet--article--more-stories
 ||www.theverge.com/zephr/feature-decisions
 
