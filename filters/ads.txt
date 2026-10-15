@@ -61,7 +61,7 @@ www.bleepingcomputer.com##.article-callout
 github.com##div[data-testid=sidebar-development-section] div[class*=developmentSectionContainer]:has(div[class*=CopilotAgentModeButton])
 github.com##button[class*=CopilotPopover-module__copilotButton]
 github.com##li:has(> button span[class*=CopilotAppOpenAction-module__LabelTransition__])
-github.com##button[class*=copilotButton__]
+github.com##button[class*=copilotButton]
 
 ! New York Times ads (as of 2025-04-02)
 ||www.nytimes.com/svc/onsite-messaging/query
